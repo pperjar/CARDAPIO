@@ -22,3 +22,5 @@ main.innerHTML="<h2> Cardapio do dia </h2>";
 const dia Da Semana =['domingo','segunda-feira','terça-feira'.'quarta-feira','quinta-feira','sexta-feira','sabado-letivo']
 const hoje = new Date().getDay();
 //Date informa a data e o getDay()informa qul dos 7(0-6)
+const dia Atual= dia Da Semana[hoje]
+alert(diaAtual)
