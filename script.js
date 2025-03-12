@@ -19,8 +19,8 @@
 const main = document.querySelector('main');//selecionar a tag main
 main.innerHTML="<h2> Cardapio do dia </h2>";
 //alista no js começa no zero.
-const dia Da Semana =['domingo','segunda-feira','terça-feira'.'quarta-feira','quinta-feira','sexta-feira','sabado-letivo']
-const hoje = new Date().getDay();
+const diaDaSemana =['domingo','segunda-feira','terça-feira','quarta-feira','quinta-feira','sexta-feira','sabado-letivo'];
+const hoje= new Date().getDay();
 //Date informa a data e o getDay()informa qul dos 7(0-6)
-const dia Atual= dia Da Semana[hoje]
+const diaAtual= diaDaSemana[hoje]
 alert(diaAtual)
