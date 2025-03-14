@@ -29,7 +29,6 @@ if (menuDoDia){
 const h3 = document.createElement('h3');
 h3.textContent = menuDoDia.dia;
 main.appendChild(h3);
-
 const section = document.createElement ('section');
 const ul = document.createElement('ul');
 
