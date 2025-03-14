@@ -1,3 +1,4 @@
+import cardapio from './dados.js'
 /*
 <h2>Cardapio do Dia</h2>
 <h3>Segunda-feira</h3>
@@ -25,10 +26,12 @@ const hoje= new Date().getDay();
 const diaAtual= diaDaSemana[hoje]
 const menuDoDia = cardapio.find (menu => menu.dia === diaAtual);
 if (menuDoDia){
-const h3 = document.createElement (h3);
+const h3 = document.createElement('h3');
 h3.textContent = menuDoDia.dia;
 main.appendChild(h3);
+
 const section = document.createElement ('section');
 const ul = document.createElement('ul');
+
 
 }
