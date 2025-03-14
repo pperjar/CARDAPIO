@@ -32,5 +32,9 @@ main.appendChild(h3);
 const section = document.createElement ('section');
 const ul = document.createElement('ul');
 
+menuDoDia.cardapio.split(', ').forEach('figure');
+const li= document.createElement('li');
+li.textContent=item;
+ul.appendChild(li);
 
 }
