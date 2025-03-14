@@ -23,4 +23,12 @@ const diaDaSemana =['domingo','segunda-feira','terça-feira','quarta-feira','qui
 const hoje= new Date().getDay();
 //Date informa a data e o getDay()informa qul dos 7(0-6)
 const diaAtual= diaDaSemana[hoje]
-alert(diaAtual)
+const menuDoDia = cardapio.find (menu => menu.dia === diaAtual);
+if (menuDoDia){
+const h3 = document.createElement (h3);
+h3.textContent = menuDoDia.dia;
+main.appendChild(h3);
+const section = document.createElement ('section');
+const ul = document.createElement('ul');
+
+}
