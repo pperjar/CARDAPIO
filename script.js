@@ -1,22 +1,4 @@
-import cardapio from './dados.js'
-/*
-<h2>Cardapio do Dia</h2>
-<h3>Segunda-feira</h3>
-<section>
-    <ul>
-    <li>Feijoada</li>
-    <li>Arroz</li>
-    <li>Couve</li>
-    <li>Farofa</li>
-    <li>Torresmo</li>
-    </ul>
-      
-    
-    <figure>
-        <img src="img/image.png" alt="feijoada">
-    </figure>
-</section>
-*/
+
 const main = document.querySelector('main');//selecionar a tag main
 main.innerHTML="<h2> Cardapio do dia </h2>";
 //alista no js começa no zero.
